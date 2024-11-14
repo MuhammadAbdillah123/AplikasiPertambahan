@@ -35,7 +35,7 @@ public class Latihan1 extends javax.swing.JFrame {
                 char c = evt.getKeyChar();
                 if (!Character.isDigit(c) && c != KeyEvent.VK_BACK_SPACE) {
                     evt.consume(); 
-                    JOptionPane.showMessageDialog(null, "Hanya angka yang diperbolehkan!", "Error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Hanya angka yang diperbolehkan!!!", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
